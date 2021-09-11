@@ -41,7 +41,7 @@ body{
 .left-side-text{
   position: relative;
   color:#fff;
-  height: 100vh;
+  height: 92.4vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,4 +111,13 @@ body{
 }
 .imput-icon i{
   font-size: 1.5rem;
+}
+
+@media (max-width:998px){
+  .form-head{
+    padding: 0 .5rem;
+  }
+  .data-input input{
+    width: 35rem;
+  }
 }
